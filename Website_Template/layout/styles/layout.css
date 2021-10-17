@@ -346,24 +346,24 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#A5A6AA; background-color:#1C1D21;}
-a{color:#FBAB45;}
+a{color:#65b832;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#FBAB45 !important;}
+input:focus, textarea:focus, *:required:focus{border-color:#65b832 !important;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FBAB45; border-color:#FBAB45;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#65b832; border-color:#65b832;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
-.imgover:hover::before{background-color:rgba(251,171,69,.5);/* #FBAB45 */}
+.imgover:hover::before{background-color:rgba(99, 251, 69, 0.5);}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
-.heading.underline::after{background-color:#FA8D0A;}
+.heading.underline::after{background-color:#65b832;}
 
 
 /* Rows */
@@ -376,9 +376,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#FBAB45 !important;}
 
 
 /* Top Bar */
-#topbar #searchform{color:#FBAB45;}
+#topbar #searchform{color:#65b832;}
 #topbar #searchform:hover{}
-#topbar #searchform input{color:#FFFFFF; background:#FA8D0A;}
+#topbar #searchform input{color:#FFFFFF; background:#65b832;}
 #topbar #searchform button{color:#FFFFFF; background:transparent;}
 
 
@@ -392,13 +392,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#FBAB45 !important;}
 
 /* Content Area */
 #overview article a{color:inherit;}
-#overview article:hover a{color:#FBAB45;}
+#overview article:hover a{color:#65b832;}
 
 #splitfifty article{color:#474747; background-color:rgba(255,255,255,.8);}
 #splitfifty article:hover{background-color:#FFFFFF;}
 
 .team figure, .latest article{box-shadow:0px 0px 15px rgba(0,0,0,.1);}
-.team figure:hover{color:#FFFFFF; background-color:#FBAB45;}
+.team figure:hover{color:#FFFFFF; background-color:#65b832;}
 
 #stats > li{border-color:#D7D7D7;}
 #stats > li i{color:rgba(0,0,0,.2);}
@@ -423,29 +423,29 @@ input:focus, textarea:focus, *:required:focus{border-color:#FBAB45 !important;}
 
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#474747; background-color:rgba(255,255,255,.8);}
-#footer input:focus{border-color:#FBAB45;}
-#footer button{color:#FFFFFF; background-color:#FBAB45;}
+#footer input:focus{border-color:#65b832;}
+#footer button{color:#FFFFFF; background-color:#65b832;}
 #footer button:hover{color:inherit; background-color:transparent; border-color:inherit;}
 
 
 /* Navigation */
 #mainav{}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FBAB45; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#65b832; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(251,171,69,.5);/* #FBAB45 */ border-color:rgba(251,171,69,.5);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#FBAB45;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#65b832;}
 #mainav form select{color:#474747; background-color:#FFFFFF;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#FBAB45;}
+#breadcrumb li:last-child a{color:#65b832;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#FBAB45;}
+.container .sidebar nav a:hover{color:#65b832;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#FBAB45;}
+.pagination .current *{color:#FFFFFF; background-color:#65b832;}
 
-#backtotop{color:#FFFFFF; background-color:#FBAB45;}
+#backtotop{color:#FFFFFF; background-color:#65b832;}
 
 
 /* Tables + Comments */
