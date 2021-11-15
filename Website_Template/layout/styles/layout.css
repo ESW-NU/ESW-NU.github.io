@@ -490,8 +490,8 @@ table a, #comments a{background-color:inherit;}
 	#header #logo{margin-top:0;}
 
 	#mainav{}
-	#mainav ul{display:none;}
-	#mainav form{display:block; margin-top:2px;}
+	/* #mainav ul{display:none;} */
+	/* #mainav form{display:block; margin-top:2px;} */
 
 	#breadcrumb{}
 
