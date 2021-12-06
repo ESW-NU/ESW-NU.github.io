@@ -431,7 +431,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#65b832 !important;}
 /* Navigation */
 #mainav{}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#65b832; background-color:inherit;}
+#mainav .active a > a{color:white; background-color:inherit;}
+#mainav a:hover, #mainav li:hover > a{color:#65b832; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(251,171,69,.5);/* #FBAB45 */ border-color:rgba(251,171,69,.5);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#65b832;}
 #mainav form select{color:#474747; background-color:#FFFFFF;}
@@ -490,8 +491,8 @@ table a, #comments a{background-color:inherit;}
 	#header #logo{margin-top:0;}
 
 	#mainav{}
-	#mainav ul{display:none;}
-	#mainav form{display:block; margin-top:2px;}
+	/* #mainav ul{display:none;} */
+	/* #mainav form{display:block; margin-top:2px;} */
 
 	#breadcrumb{}
 
