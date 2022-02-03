@@ -15,6 +15,35 @@ Licence URI: https://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<style>
+  .containerPlayer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 75%; 
+  }
+
+  .responsivePlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .videoPlayer {display: none;}
+    .responsivePlayer {display: block;}
+  }
+
+  @media only screen and (min-width: 701px) {
+    .videoPlayer {display: block;}
+    .responsivePlayer {display: none;}
+    .containerPlayer {display: none;}
+  }
+</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-61N14FCTVL"></script>
@@ -189,19 +218,20 @@ Licence URI: https://www.os-templates.com/template-terms
           </article>
         </li>
         <!----------VIDEO------------>
-        <ul class="nospace clear" style="text-align: center; position: relative; top:15px">
-          <iframe width="640" height="480"
-            src="https://www.youtube.com/embed/Aae99SjBvGE">
-          </iframe>
-          <!--<video width="640" height="480" controls>
-            <source src="images/ESW 2021.mp4" type="video/mp4">
-            Your browser does not support playing mp4 videos.
-          </video>-->
-        </ul>
       </ul>
       <br>
       <br>
-      <footer class="center"><a class="btn" href="pages/contact.html">Learn More</a></footer>
+      <!----------VIDEO------------>
+      <div style="position: relative; top: 20px">
+        <div class="videoPlayer nospace clear" style="text-align: center; position: relative;">
+          <iframe width="640" height="480" src="https://www.youtube.com/embed/Aae99SjBvGE"> </iframe>
+        </div>
+        <div class="containerPlayer nospace clear" style="text-align: center; position: relative; ">
+          <iframe class="responsivePlayer" width="640" height="480" src="https://www.youtube.com/embed/Aae99SjBvGE"> </iframe>
+        </div>
+          <footer class="center" style="position: relative; top: 20px; padding: 10px 0 40px;"><a class="btn" href="pages/contact.html">Learn More</a></footer>
+        </div>
+      </section>     
     </section>
     <!-- ################################################################################################ -->
     <!-- / main body -->
