@@ -611,12 +611,12 @@ table a, #comments a{background-color:inherit;}
 }
   
   /* Add Animation */
-.modal-content, #caption {  
+/* .modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
-}
+} */
   
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
