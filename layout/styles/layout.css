@@ -106,7 +106,8 @@ File: Layout CSS
 #splitfifty.disright > div:nth-of-type(2) article{float:right;}/* Display the block to the right, instead of left - depends on your preference */
 
 /* Team Members */
-.team{}
+.team {display: flex; flex-wrap: wrap;}
+.team li {margin: auto;}
 .team li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
 .team figure{display:block; text-align:center;}
 .team figure *{margin:0; padding:0;}
