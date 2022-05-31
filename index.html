@@ -15,6 +15,12 @@ Licence URI: https://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="recent-news-boxes.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <style>
   .containerPlayer {
   position: relative;
@@ -229,7 +235,7 @@ Licence URI: https://www.os-templates.com/template-terms
         <div class="containerPlayer nospace clear" style="text-align: center; position: relative; ">
           <iframe class="responsivePlayer" width="640" height="480" src="https://www.youtube.com/embed/Aae99SjBvGE"> </iframe>
         </div>
-          <footer class="center" style="position: relative; top: 20px; padding: 10px 0 40px;"><a class="btn" href="pages/contact.html">Learn More</a></footer>
+          <footer class="center" style="position: relative; top: 20px; padding: 10px 0 10px;"><a class="btn" href="pages/contact.html">Learn More</a></footer>
         </div>
       </section>     
     </section>
@@ -261,62 +267,45 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<!-- <div class="wrapper row2">
-  <div class="hoc container clear"> 
-     ################################################################################################ 
+
+<section class="recentNews">
+  <div class="container">
     <div class="sectiontitle">
-      <p class="nospace font-xs">Id elementum lobortis justo donec</p>
-      <p class="heading underline font-x2">Meet our Exec Board</p>
+      <p class="heading underline font-x2">ESWNU in the News</p>
     </div>
-    <ul class="nospace group team">
-      <li class="one_quarter first">
-        <figure><a class="imgover" href="#"><img src="images/demo/300x300.png" alt=""></a>
-          <figcaption><strong>Bill Yen</strong> <em>Co-President <br> Urban Agriculture Project Manager</em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover" href="#"><img src="images/demo/300x300.png" alt=""></a>
-          <figcaption><strong>Bryan Horn</strong> <em>Co-President</em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover" href="#"><img src="images/demo/300x300.png" alt=""></a>
-          <figcaption><strong>Ethan Siau</strong> <em>Finance Chair</em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover" href="#"><img src="images/demo/300x300.png" alt=""></a>
-          <figcaption><strong>Katie Lev</strong> <em>Secretary <br> SmartTree Project Manager </em></figcaption>
-        </figure>
-      </li>
-    </ul>
-    <ul class="nospace group team">
-      <li class="one_quarter first">
-        <figure><a class="imgover" href="#"><img src="images/demo/300x300.png" alt=""></a>
-          <figcaption><strong>Callista Sukohardjo</strong> <em>Public Relations Chair <br> SmartTree Project Manager </em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover" href="#"><img src="images/demo/300x300.png" alt=""></a>
-          <figcaption><strong>Raymonde Council</strong> <em>Public Relations Chair</em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover" href="#"><img src="images/demo/300x300.png" alt=""></a>
-          <figcaption><strong>Charlie Woods</strong> <em>Webmaster</em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover" href="#"><img src="images/demo/300x300.png" alt=""></a>
-          <figcaption><strong>Amar Saraon</strong> <em>Webmaster</em></figcaption>
-        </figure>
-      </li>
-    </ul>
-    ################################################################################################ 
+    <div class="scrolling-news-wrapper">
+      <div class="news-Card">
+        <a class="news_image" href="https://dailynorthwestern.com/2021/11/15/multimedia/nu-declassified-exploring-engineering/"><img src="images/News/dailyNU1.jpg" alt="Daily NU Article: NU Declassified Exploring Engineering"></a>
+        <a href="https://dailynorthwestern.com/2021/11/15/multimedia/nu-declassified-exploring-engineering/">NU Declassified: Exploring Engineering </a>
+        <br>
+        <p>November 15, 2021</p>
+      </div>
+      <div class="news-Card">
+        <a class="news_image" href="https://dailynorthwestern.com/2021/11/15/multimedia/nu-declassified-exploring-engineering/"><img src="images/News/NUClimateAdvocates.jpg" alt="Daily NU Article: Climate advocates, NU researchers promote clean energy to combat climate change"></a>
+        <a href="https://dailynorthwestern.com/2021/11/15/multimedia/nu-declassified-exploring-engineering/">NU researchers promote clean energy <br> to combat climate change</a>
+        <p>November 15, 2021</p>
+      </div>
+      <div class="news-Card">
+        <a class="news_image" href="https://www.mccormick.northwestern.edu/magazine/fall-2021/building-community-making-impact/"><img src="images/News/McCormickNews.jpg" alt="McCormick Newsletter featuring ESWNU"></a>
+        <a href="https://www.mccormick.northwestern.edu/magazine/fall-2021/building-community-making-impact/">Building Community. Making an Impact.</a>
+        <br>
+        <p>Fall, 2021</p>
+      </div>
+      <div class="news-Card">
+        <a class="news_image" href="https://dailynorthwestern.com/2020/11/04/campus/asg/asg-funds-two-wild-ideas-from-nu-students/"><img src="images/News/newsASG1.jpg" alt="ASG Article"></a>
+        <a href="https://dailynorthwestern.com/2020/11/04/campus/asg/asg-funds-two-wild-ideas-from-nu-students/">ASG funds two “Wild Ideas” <br> from NU students</a>
+        <p>November 5, 2020</p>
+      </div>
+      <div class="news-Card">
+        <a class="news_image" href="https://dailynorthwestern.com/2020/01/22/campus/nu-students-welcome-new-decade-of-sustainability-on-campus/"><img src="images/News/sustainability.jpg" alt="Daily NU Article: NU students welcome new decade of sustainability on campus"></a>
+        <a href="https://dailynorthwestern.com/2020/01/22/campus/nu-students-welcome-new-decade-of-sustainability-on-campus/">NU students welcome <br> new decade of sustainability on campus</a>
+        <p>January 22, 2020</p>
+      </div>
   </div>
-</div> -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
+</section>
+
+
+
 <!-- ################################################################################################ -->
 <!-- <div class="wrapper row3">
   <section class="hoc container clear"> 

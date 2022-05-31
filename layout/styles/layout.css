@@ -12,6 +12,49 @@ File: Layout CSS
 @import url("fontawesome-free/css/fontawesome-all.min.css");
 @import url("framework.css");
 
+
+/* News
+--------------------------------------------------------------------------------------------------------------- */
+.scrolling-news-wrapper {
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+.news-Card {
+	padding-right: 10px;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+
+.news-Card img{
+	width: 275px;
+	max-width: max-content;
+	margin-bottom: 10px;
+}
+
+.news-Card a{
+	word-wrap: normal;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.news-Card p{
+	word-wrap: normal;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.news-Card p{
+	word-wrap: normal;
+	text-align: center;
+	font-weight: bolder;
+}
+
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
