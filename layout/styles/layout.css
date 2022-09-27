@@ -618,13 +618,16 @@ table a, #comments a{background-color:inherit;}
 }
   
 #myImg:hover {opacity: 0.7;}
+
+.img-container {
+	margin-top: 3%;
+}
   
   /* The Modal (background) */
 .modal {
 	display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 2; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
