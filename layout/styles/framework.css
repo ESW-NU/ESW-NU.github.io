@@ -51,7 +51,7 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 .imgover{display:inline-block; position:relative; max-width:100%;}
 .imgover::before, .imgover::after{display:block; position:absolute; content:""; text-align:center; opacity:0;}
 .imgover::before{top:0; right:0; bottom:0; left:0;}
-.imgover::after{top:50%; left:50%; width:40px; height:40px; line-height:40px; margin:-200px 0 0 -200px; font-family:"Font Awesome\ 5 Free"; font-weight:900; content: url(../../images/gear-symbol_smallest.png);/*"\f067";/* fa-plus */ font-size:200px;}
+.imgover::after{top:50%; left:50%; width:40px; height:40px; line-height:40px; margin: -100px 0 0 -100px; font-family:"Font Awesome\ 5 Free"; font-weight:900; content: url(../../images/gear-symbol_real_smallest.png);/*"\f067";/* fa-plus */ font-size:200px;}
 .imgover:hover::before, .imgover:hover::after{opacity:1;}
 
 
