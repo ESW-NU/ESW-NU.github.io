@@ -120,7 +120,7 @@ File: Layout CSS
 #introblocks figure{}
 #introblocks figure figcaption{display:block; padding:30px 0 0 0; text-align:center;}
 #introblocks figure figcaption > a{}
-#introblocks figure figcaption .heading{font-size:1.2rem; font-weight:700; margin-bottom:0;}
+#introblocks figure figcaption .heading{}
 #introblocks figure figcaption .heading.underline::after{left:50%; margin-left:-12%;}
 
 /* Overview - for services etc. */
