@@ -34,7 +34,8 @@
     overflow: hidden;
 }
 .ct-blog .fauxcrop img {
-    width: 100%;
+    
+    height: 400px;
 }
 .ct-blog-content {
     display: table;

@@ -32,6 +32,7 @@ File: Layout CSS
 .news-Card img{
 	width: 275px;
 	max-width: max-content;
+	height: 200px;
 	margin-bottom: 10px;
 }
 
