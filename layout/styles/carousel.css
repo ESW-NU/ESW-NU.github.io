@@ -1,0 +1,34 @@
+/* The following CSS style sheet is for the image carousels on project pages */
+/* Gabriela Avila - Spring 2026 */
+
+.carousel {
+    position: relative;
+    width: 600px;
+    margin: 50px auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
