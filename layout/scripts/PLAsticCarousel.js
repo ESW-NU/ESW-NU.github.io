@@ -2,10 +2,10 @@
 
 const images = [
     "../images/PLAstic images/Working on Hopper.jpg",
-    "../images/PLAstic images/Yuna cutting Hopper.HEIC",
+    "../images/PLAstic images/Yuna cutting Hopper.webp",
     "../images/PLAstic images/Group Blender Testing.jpg",
-    "../images/PLAstic images/Alex on Bandsaw.HEIC",
-    "../images/PLAstic images/PLAstic in Shop.HEIC"
+    "../images/PLAstic images/Alex on Bandsaw.webp",
+    "../images/PLAstic images/PLAstic in Shop.webp"
 ];
 
 let currentIndex = 0;
