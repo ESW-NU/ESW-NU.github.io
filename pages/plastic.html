@@ -126,11 +126,6 @@ Licence URI: https://www.os-templates.com/template-terms
       <!-- ################################################################################################ -->
       <h1><b>Closing the Loop on 3D Printing</b></h1>
 
-    <div class="carousel">
-      <button class="arrow left">❮</button>
-      <img src="../images/PLAstic images/Working on Hopper.jpg" alt="PLAstic image">
-      <button class="arrow right">❯</button>
-    </div>
       <!-- Description -->
       <p><b>PLAstic</b> is a student-driven project that is focused on building
         a system that mechanically recycles PLA waste generated from 3D printers
@@ -139,6 +134,15 @@ Licence URI: https://www.os-templates.com/template-terms
       </p>
     <br>
       
+    <div class="carousel">
+      <button class="arrow left" onclick="changeImage(-1)">❮</button>
+      <img id="carousel-image" src="../images/PLAstic images/Working on Hopper.jpg" alt="PLAstic image" width="600">
+      <button class="arrow right" onclick="changeImage(1)">❯</button>
+      <!-- Javascript for switching in between images on PLAstic page -->
+      <script src="../layout/scripts/PLAsticCarousel.js"></script>
+    </div>
+      
+    <br>  
       <!-- Meeting times documented here -->
       <h2><b>Spring 2026 Meeting Times</b></h2>
       <p>Tuesday 6:00 - 7:00 pm <br> Thursday 5:00 - 6:00 pm </p>
